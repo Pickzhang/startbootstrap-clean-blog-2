@@ -6,17 +6,19 @@ function ZhuanLongWan() {
         useDirtyRect: false
     });
     let option = {
-        title: {
-            text: '转\n龙\n湾\n煤\n矿\n一\n到\n六\n月\n份\n用\n电\n情\n况',
-            // textVerticalAlign: 'bottom',
-            textAlign: 'bottom',
-            top: 'middle',
-            // left: '1.2%',
-            textStyle: {
-                fontWeight: 'bolder',
-                fontSize: 25
-            }
-        },
+        // title: {
+        //     // text: '转\n龙\n湾\n煤\n矿\n一\n到\n六\n月\n份\n用\n电\n情\n况',
+        //     text: '转龙湾煤矿一到六月份用电情况',
+        //     // textVerticalAlign: 'bottom',
+        //     textAlign: 'bottom',
+        //     top: 'bottom',
+        //     left: 'center',
+        //     // left: '1.2%',
+        //     textStyle: {
+        //         // fontWeight: 'bolder',
+        //         fontSize: 17
+        //     }
+        // },
 
         color: ['#2db7f5', '#ff6600', '#808bc6'],
         legend: {
