@@ -7384,6 +7384,12 @@ textarea.form-control-lg {
     justify-content: space-evenly !important;
 }
 
+.justify-content-space-between {
+    /*justify-content: space-betweend !important;*/
+    text-align: justify;
+    text-justify: inter-word; /* 改变字与字之间的间距使得每行对齐*/
+}
+
 .align-items-start {
     align-items: flex-start !important;
 }
@@ -11734,7 +11740,7 @@ header.masthead:before {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: #212529;
+    background-color: rgb(255 255 255 / 0%);
     opacity: 0.5;
 }
 
@@ -11784,7 +11790,7 @@ header.masthead .post-heading .subheading {
 
 header.masthead .post-heading .meta {
     font-size: 1.25rem;
-    font-weight: 300;
+    font-weight: bold;
     font-style: italic;
     font-family: "Arial", "Times New Roman", '楷体', serif, "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }

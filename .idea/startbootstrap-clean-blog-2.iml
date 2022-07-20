@@ -6,7 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="all" level="application" />
     <orderEntry type="library" name="bootstrap" level="application" />
-    <orderEntry type="module" module-name="Read_Mei_Kuang_Data" />
     <orderEntry type="library" name="echarts" level="application" />
   </component>
 </module>
